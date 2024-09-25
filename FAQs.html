@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EcoChat | FAQs</title>
+    <link rel="stylesheet" href="/css/FAQs.css"> <!-- Link to your main CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <a href="index.html" class="logo">EcoChat</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="btn join-now">Join Now</a>
+    </header>
+
+    <!-- FAQ Section -->
+    <main>
+        <section class="faq-section">
+            <div class="faq-content">
+                <h1 class="faq-title">Frequently Asked Questions</h1>
+                <div class="faqs">
+                    <div class="faq">
+                        <div class="faq-question">How can I request a waste bin?</div>
+                        <div class="faq-answer">You can request a waste bin through our chatbot by providing your details and selecting your bin type and size.</div>
+                        <div class="faq-question">How can I request a waste bin?</div>
+                        <div class="faq-answer">You can request a waste bin through our chatbot by providing your details and selecting your bin type and size.</div>
+                        <div class="faq-question">How can I request a waste bin?</div>
+                        <div class="faq-answer">You can request a waste bin through our chatbot by providing your details and selecting your bin type and size.</div>
+                        <div class="faq-question">How can I request a waste bin?</div>
+                        <div class="faq-answer">You can request a waste bin through our chatbot by providing your details and selecting your bin type and size.</div>
+                        <div class="faq-question">How can I request a waste bin?</div>
+                        <div class="faq-answer">You can request a waste bin through our chatbot by providing your details and selecting your bin type and size.</div>
+                    </div>
+                    <!-- Add more FAQ items as needed -->
+                </div>
+            </div>
+            <div class="faq-image">
+                <img src="/images/Screenshot_56.png" alt="FAQ Illustration">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">About Us</a>
+            <a href="#">Cookie Policy</a>
+        </div>
+        <p>Made with <span class="heart">♥</span> by AsonyaGh</p>
+    </footer>
+
+    <!-- JavaScript for FAQ Toggle -->
+    <script>
+        const faqs = document.querySelectorAll('.faq-question');
+        faqs.forEach(faq => {
+            faq.addEventListener('click', () => {
+                faq.classList.toggle('active');
+                faq.nextElementSibling.classList.toggle('show');
+            });
+        });
+    </script>
+</body>
+</html>
